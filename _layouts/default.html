@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yrsa">
+</head>
+
+<body>
+  <div class="container">
+    {% include navigation.html %}
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+  </div>
+  {% include analytics.html %}
+</body>
+
+</html>
