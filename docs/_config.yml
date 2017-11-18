@@ -1,11 +1,11 @@
 name: Vincent Kammerer
 markdown: kramdown
-prose:
-  metadata:
+metadata:
+  _posts:
     - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "The date of the event"
-          value: CURRENT_DATETIME
-          type: "datetime"
+      field:
+        element: "text"
+        label: "Date"
+        help: "The date of the event"
+        value: CURRENT_DATETIME
+        type: "datetime"
