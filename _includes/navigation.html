@@ -3,26 +3,17 @@
 <nav>
   <ul>
     <li>
-      <a
-        href="/"
-        {% if current[0] == 'index' %}class='current'{% endif %}
-      >
+      <a href="/" {% if current[0]=='index' %}class='current' {% endif %}>
         Home
       </a>
     </li>
     <li>
-      <a
-        href="/about"
-        {% if current[0] == 'about' %}class='current'{% endif %}
-      >
+      <a href="/about" {% if current[0]=='about' %}class='current' {% endif %}>
         About
       </a>
     </li>
     <li>
-      <a
-        href="/articles"
-        {% if current[0] == 'articles' %}class='current'{% endif %}
-      >
+      <a href="/articles" {% if current[0]=='articles' %}class='current' {% endif %}>
         Articles
       </a>
     </li>
